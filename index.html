@@ -1,0 +1,1433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive css  -->
+    <link rel="stylesheet" href="resp.css">
+    <!-- css icon  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>The great kitchen and resturent</title>
+</head>
+
+<body id="pagetop">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="mainNav">
+        <a class="navbar-brand" href="#toppage"><i class="fas fa-utensils"></i>
+            The GKR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link text-dark rounded js-scroll-trigger" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark rounded js-scroll-trigger" href="#about">About</a>
+                </li>
+                
+
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+            </form> -->
+            <div id="search-box">
+                <form onsubmit="event.preventDefault()" class="form-inline my-2 my-lg-0">
+                    <!-----prevents from submittinh the form -->
+
+                    <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                            class="fa fa-search"></i></button>
+                </form>
+
+            </div>
+
+
+        </div>
+
+    </nav>
+
+
+    <section class="section-one" id="home">
+        <div class="container-fluid bg-light " id="section1">
+            <!-- first part include pills nav which get toggle when it get clicked  -->
+            <div class=" first-part">
+                <ul class="nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link menu-button bg-success" type="button" data-toggle="modal"
+                            data-target="#breakfast">Breakfast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-button bg-success" type="button" data-toggle="modal"
+                            data-target="#lunch">Lunch</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link menu-button bg-success" type="button" data-toggle="modal"
+                            data-target="#snacks">Snacks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-button bg-success" type="button" data-toggle="modal"
+                            data-target="#dinner">Dinner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-button bg-success" type="button" data-toggle="modal"
+                            data-target="#drinks">Drinks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-button bg-success" type="button" data-toggle="modal"
+                            data-target="#dessert">Dessert</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-button bg-primary text-white" type="button" data-toggle="modal"
+                            data-target="#today">Today
+                            special</a>
+                    </li>
+            </div>
+            <!-- this is part of defult   -->
+            <div class=" second-part">
+                <div class="container my-2">
+                    <div class="card">
+                        <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                        <div class="card-body row">
+                            <h5 class="card-title row col">00.000$</h5>
+                            <h5 class="card-title">Rice</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <img src="Kung-Pao-Veggies-ch-din.jpg" class="card-img-top" alt="food">
+                        <div class="card-body row ">
+                            <h5 class="card-title row col">00.000$</h5>
+                            <h5 class="card-title">Momo</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="coconut pudding-ch-de.jpg" class="card-img-top" alt="food">
+                        <div class="card-body row">
+                            <h5 class="card-title row col">00.000$</h5>
+                            <h5 class="card-title ">Newari food</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="burrito-br-ch.jpg" class="card-img-top" alt="food">
+                        <div class="card-body row">
+                            <h5 class="card-title row col">Orange drinks</h5>
+                            <h5 class="card-title  ">00.000$</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="Baijiu (White Alcohol) chin.jpg" class="card-img-top" alt="food">
+                        <div class="card-body row ">
+                            <h5 class="card-title row col">00.000$</h5>
+                            <h5 class="card-title ">Samosa</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="chicken salad-ch-lu.jpg" class="card-img-top" alt="food">
+                        <div class="card-body row ">
+                            <h5 class="card-title row col">00.000$</h5>
+                            <h5 class="card-title ">Red wine</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                            <button class="pill btn btn-outline-dark">Thihca</button>
+                        </div>
+                    </div>
+                    <!--container -->
+                    <ul class="list-food"></ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- modal of all button above -->
+        <!-- pills modal Breakfast -->
+        <div class="modal fade" id="breakfast" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticbackdroplabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>
+                            <span><i class="fas fa-star"></i></span>Breakfast<span> <i class="fas fa-star"></i></span>
+                        </h2>
+                        <!-- close button  -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- lunch modal  -->
+        <div class="modal fade" id="lunch" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticbackdroplabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="text-center">
+                            <span><i class="fas fa-star"></i></span>Lunch<span> <i class="fas fa-star"></i></span>
+                        </h2>
+                        <!-- close button  -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- snacks modal  -->
+        <div class="modal fade" id="snacks" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticbackdroplabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="text-center">
+                            <span><i class="fas fa-star"></i></span>Snacks<span> <i class="fas fa-star"></i></span>
+                        </h2>
+                        <!-- close button  -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- dinner modal  -->
+        <div class="modal fade" id="dinner" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticbackdroplabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="text-center">
+                            <span><i class="fas fa-star"></i></span>Dinner<span> <i class="fas fa-star"></i></span>
+                        </h2>
+                        <!-- close button  -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- drink modal  -->
+        <div class="modal fade" id="drinks" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticbackdroplabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="text-center">
+                            <span><i class="fas fa-star"></i></span>Drinks<span> <i class="fas fa-star"></i></span>
+                        </h2>
+                        <!-- close button  -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- dessert modal  -->
+        <div class="modal fade" id="dessert" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticbackdroplabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="text-center">
+                            <span><i class="fas fa-star"></i></span>Dessert<span> <i class="fas fa-star"></i></span>
+                        </h2>
+                        <!-- close button  -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- today special modal  -->
+        <div class="modal fade" id="today" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticbackdroplabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="text-center">
+                            <span><i class="fas fa-star"></i></span>Today Special<span> <i
+                                    class="fas fa-star"></i></span>
+                        </h2>
+                        <!-- close button  -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Rice pudding</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Ialian-samosa</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="vegetarian manchurian-ch-lu.jpg" class="card-img-top" alt="food">
+                            <div class="card-body row">
+                                <h5 class="card-title row col">00.000$</h5>
+                                <h5 class="card-title">Dum biryani</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                                <button class="pill btn btn-outline-dark">Thihca</button>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- this include fast food item  -->
+    <section class="section-two">
+
+        <div class="container container-2">
+
+            <div class="left-part" id="fast-food">
+                <div class="title">
+                    <h2>Fast Food</h2>
+                </div>
+                <div class="food-content">
+                    <!-- ........no 1 -->
+                    <a href="#food-box-1" class="collapsed" data-toggle="collapse" data-target="#food-box-1"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-target="#food-box-1">
+                            <div class="food-title">
+                                <h3>Chicken Fry</h3>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="food-box-1" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>Americano</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!-- next-food  -->
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>Cappuccino</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ............no 2 -->
+                    <a href="#food-box-2" class="collapsed" data-toggle="collapse" data-target="#food-box-2"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-toggle="food-list" data-target="#food-box-2">
+                            <div class="food-title">
+                                <h3>Burger</h3>
+
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="food-box-2" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./buger image.jpg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>Chicken burger</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ..........no 3  -->
+                    <a href="#food-box-3" class="collapsed" data-toggle="collapse" data-target="#food-box-3"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-toggle="food-list" data-target="#food-box-3">
+
+                            <div class="food-title">
+                                <h3>Coffee</h3>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="food-box-3" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>Americano</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#food-box-4" class="collapsed" data-toggle="collapse" data-target="#food-box-4"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-toggle="food-list" data-target="#food-box-4">
+                            <div class="food-title">
+                                <h3>Pizza</h3>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="food-box-4" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./pizza image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>chicken pizza</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- midddle part  -->
+            <div class="middle-part">
+                <div class="title">
+                    <h2>Party Item</h2>
+                </div>
+
+
+                <div class="party-content">
+                    <!-- ........no 1 -->
+                    <a href="#party-box-1" class="collapsed" data-toggle="collapse" data-target="#party-box-1"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-target="#food-box-1">
+                            <div class="food-title">
+                                <h3>Venu</h3>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="party-box-1" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>HAll</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 20.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ............no 2 -->
+                    <a href="#party-box-2" class="collapsed" data-toggle="collapse" data-target="#party-box-2"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-toggle="food-list" data-target="#food-box-2">
+                            <div class="food-title">
+                                <h3>Food</h3>
+
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="party-box-2" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+
+                                        <div class="product-title">
+                                            <span>Call the Hotel</span>
+                                        </div>
+
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+
+                                        <div class="product-title">
+                                            <span>Our own</span>
+                                        </div>
+
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right-part  -->
+            <div class="right-part">
+
+                <div class="title">
+                    <h2>Birthday Item</h2>
+                </div>
+                <div class="birthday-content">
+                    <!-- ........no 1 -->
+                    <a href="#cake-box-1" class="collapsed" data-toggle="collapse" data-target="#cake-box-1"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-target="#food-box-1">
+                            <div class="food-title">
+                                <h3>Chicken Fry</h3>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="cake-box-1" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>chocolate</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>chocolate</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>chocolate</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>chocolate</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!-- next-food  -->
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./coffee image.jpeg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>Cappuccino</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 3.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ............no 2 -->
+                    <a href="#cake-box-2" class="collapsed" data-toggle="collapse" data-target="#cake-box-2"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-toggle="food-list" data-target="#food-box-2">
+                            <div class="food-title">
+                                <h3>Venu</h3>
+
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="cake-box-2" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./buger image.jpg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>Hotel rome</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 5.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./buger image.jpg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>Hotel party area</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 10.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-image">
+                                            <img src="./buger image.jpg">
+
+                                        </div>
+                                        <div class="product-title">
+                                            <span>Hotel garden</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>$ 15.00</span>
+                                        </div>
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ..........no 3  -->
+                    <a href="#cake-box-3" class="collapsed" data-toggle="collapse" data-target="#cake-box-3"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-toggle="food-list" data-target="#food-box-3">
+
+                            <div class="food-title">
+                                <h3>Food</h3>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="cake-box-3" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+
+                                        <div class="product-title">
+                                            <span>We will manage</span>
+                                        </div>
+
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+                                        <div class="product-title">
+                                            <span>From hotel</span>
+                                        </div>
+
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#cake-box-4" class="collapsed" data-toggle="collapse" data-target="#cake-box-4"
+                        aria-expanded="false" aria-controls="collapseThree" style="text-decoration:none;">
+                        <div class="food-box" data-toggle="food-list" data-target="#food-box-4">
+                            <div class="food-title">
+                                <h3>Drinks</h3>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                    <!-- this is above food item content -->
+                    <div id="cake-box-4" class="panel-collapse collapse background" role="tabpanel"
+                        aria-labelledby="headingThree" aria-expanded="false">
+                        <div class="panel-body">
+                            <div class="food-products-wrapper">
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+
+                                        <div class="product-title">
+                                            <span>From Hotel</span>
+                                        </div>
+
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="food-products">
+                                    <li class="food-product-loop">
+
+                                        <div class="product-title">
+                                            <span>We will manage</span>
+                                        </div>
+
+                                        <div class="product-button">
+                                            <button class="btn btn-warning"><a href="#"
+                                                    class="text-dark">Select</a></button>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="index.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
